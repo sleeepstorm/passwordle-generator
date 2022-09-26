@@ -21,3 +21,19 @@ h1 {
   color: red;
   cursor: pointer;
 }
+
+#word {
+padding: 30px;
+font-size: 40px;
+border-radius: 20px;
+border: none;
+transition: 0.3s;
+}
+
+
+#word:hover {
+  background-color: red;
+  color: white;
+}
+
+
