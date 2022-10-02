@@ -17,10 +17,7 @@ h1 {
   font-weight: 600;
   font-size: 40px;
 }
-#password:hover {
-  color: red;
-  cursor: pointer;
-}
+
 
 #word {
 padding: 30px;
