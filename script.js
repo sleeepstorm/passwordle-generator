@@ -2,11 +2,10 @@ const words = ["lowes", "flees", "hucks", "styte", "picas", "wryer", "serow", "b
 
 const sc = ["!", "@", "%", "^", "&"];
 
-word = words[Math.floor(Math.random() * words.length)];
+words = words[Math.floor(Math.random() * words.length)] + words[Math.floor(Math.random() * words.length)] + words[Math.floor(Math.random() * words.length)] + words[Math.floor(Math.random() * words.length)];
 word = word[0].toUpperCase() + word.substring(1);
 
-
-$("#password").text(word + sc[Math.floor(Math.random() * sc.length)] + Math.floor(Math.random() * 99));
+$("#password").text(words + sc[Math.floor(Math.random() * sc.length)] + Math.floor(Math.random() * 99));
 
 
 
